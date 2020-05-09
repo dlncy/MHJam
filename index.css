@@ -1,0 +1,146 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar styling */
+nav{
+    background-color: #161e67;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-toggler{
+    border-color: white;
+}
+.navbar-brand{
+    color:white;
+	font-size: 22px;
+	display:flex;
+	align-items:center;
+}
+.nav-link{
+    color: white;
+}
+.dropdown-menu{
+    color:white;
+    background-color: #161e67;
+}
+.navbar a{
+    color:white;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+/* carousel styling */
+
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+.carousel{
+    max-width: 100%;
+    background-color: #ffacac;
+}
+.carousel img {
+    border: solid 3px;
+    border-color: #ff5c5c;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#carouselExampleControls{
+    margin-top: 3%;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+/* best seller area styling */
+
+.bestSeller{
+    margin: 0 auto;
+    padding: 0 10px 40px;
+    color: #161e67;
+}
+.bestSeller img{
+    border-radius: 10%;
+    max-width: 100%;
+}
+
+.bestSeller h2{
+    margin-top: 30%;
+    text-align: center;
+}
+.bestSeller p{
+    padding: 0 10px 80px;
+    text-align: center;   
+}
+
+/* footer styling */
+footer {
+    display: flex;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 130px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff5c5c;
+    color: white;
+    text-align: center;
+	font-size: 14px;
+	align-items: center;
+  }
+footer p{
+	align-items: center;
+	margin-bottom: 0;
+
+}
+footer a{
+	color: white;
+	font-weight: 600;
+}
+ 
+@media screen and (min-width: 480px) {
+	/*nav styling 768*/
+	.navbar-brand{
+		color:white;
+		font-size: 38px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+.bestSeller{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+   
+    .bestSeller img{
+        max-width: 45%;
+        float: left;
+        padding: 0 1em 3em;
+      }
+    .bestSeller h2{
+        text-align: left;
+        font-weight: 600;
+    }
+      .bestSeller p{       
+        float: right;
+        margin: 0;
+        text-align: justify;
+       }
+
+       .bestSeller:after{
+           clear:both;
+       }
+
+       .w-100{
+           padding: 50px;
+           clear: both;
+       }
+}

@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#heading {
+    background: url("Productimages/Header/heading2.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 600px;
+    width: 1080;
+    border-top: solid 20px #ff5c5c;
+}
+#xxlarge {
+    font-size: 40px;
+}
+#coloredcenter {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ff5c5c;
+    margin-top: 20px;
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+#coloredright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: right;
+    color: #ff5c5c;
+    margin-top: 100px;
+    padding-right: 40px;
+    padding-left: 140px;
+    text-shadow: 6px 6px 6px rgb(0, 0, 0);
+}
+#coloredleft {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    text-align: left;
+    color: #ff5c5c;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 140px;
+}
+p {
+    font-weight: 400;
+}
+h1 {
+    font-weight: 800;
+}
+h5 {
+    font-weight: 600;
+}
+#cardbox {
+    margin-top: 60px;
+    margin-bottom: 180px;
+}
+
+.card-body {
+    background-color: #161e67;
+    color: #ff5c5c;
+    border-top: solid 4px #ff5c5c;
+    
+}
+.card {
+    margin: 20px;
+    border-top: solid 20px #ff5c5c;
+}
+
+.smalloz{
+    color: #ff5c5c;
+}
+
+
+
+/* vanbar ||||||||||||||||||||||||||||||||||||||||||||||||| */
+nav{
+    background-color: #161e67;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-toggler{
+    border-color: white;
+}
+.navbar-brand{
+    color:white;
+	font-size: 22px;
+	display:flex;
+	align-items:center;
+}
+.nav-link{
+    color: white;
+}
+.dropdown-menu{
+    color:white;
+    background-color: #161e67;
+}
+.navbar a{
+    color:white;
+    margin-left: 20px;
+    font-weight: 800;
+}
+/* vanbar ||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* footer ||||||||||||||||||||||||||||||||||||||||||||||||| */
+footer {
+    display: flex;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 130px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff5c5c;
+    color: white;
+    text-align: center;
+	font-size: 14px;
+	align-items: center;
+  }
+footer p{
+	align-items: center;
+	margin-bottom: 0;
+
+}
+footer a{
+	color: white;
+	font-weight: 600;
+}
+
+footer a:hover{
+	color: #161e67; 
+}
+/* footer ||||||||||||||||||||||||||||||||||||||||||||||||| */
+@media screen and (min-width: 480px) {
+	/*nav styling 768*/
+	.navbar-brand{
+		color:white;
+		font-size: 38px;
+	}
+}
+
+
+@media(min-width: 548px){
+    #coloredright {
+        font-size: 28px;
+    }
+
+    #xxlarge {
+        font-size: 80px;
+    }
+}
+
+@media(min-width: 768px){
+    #xxlarge {
+        font-size: 120px;
+    }
+}
+
+@media(max-width: 992px){
+    #coloredleft, #coloredright {
+        text-align: center;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
+
+
+
+
+
+
